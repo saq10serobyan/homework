@@ -59,7 +59,7 @@ function product(array){
         array.pop()
     }
     let result = 0
-    for (let i = 0; i < array.length; i+=2) {
+    for (let i = 0; i < array.length; i++) {
         if ((array[i] * array[i+1]) > result) {
             result = array[i] * array[i+1]
         }
